@@ -1,0 +1,17 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="menu.css">
+
+<meta name="viewport" content="width=device-width",initial scale="1">
+</head>
+<body>
+<h1>our Menu</h1>
+<div class="icecream" ><p id="ice">Icecream</p>
+Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from dairy milk or cream and is flavoured with a sweetener, either sugar or an alternative, and any spice, such as cocoa or vanilla. Colourings are usually added, in addition to stabilizers. The mixture is stirred to incorporate air spaces and cooled below the freezing point.
+</div>
+<div class="juice"><p id="jui">Juice</p>Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. It can also refer to liquids that are flavored with concentrate or other biological food sources, such as meat or seafood, such as clam juice. Juice is commonly consumed as a beverage or used as an ingredient or flavoring in foods or other beverages, as for smoothies. </div>
+<div class="cake"><p id="cak">Cake</p>Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked. In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate, and that share features with other desserts such as pastries , meringues, custards, and pies.</div>
+
+</body> 
+</html>
