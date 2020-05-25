@@ -76,14 +76,14 @@ margin-bottom:10px;
 }
 }
 @media(max-width:767px)
-{   .col-sd-6
+{   .col-sd-12
 {
 float:left;
 }
 .ice
 {
  left:50%;
-width:55.5%;
+width:55.3%;
 }
  .col-sd-12
 {   width:100%;
