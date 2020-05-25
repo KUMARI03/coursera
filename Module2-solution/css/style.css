@@ -47,10 +47,10 @@ background-color:orange;
 {
 float:left;
 }
-.ice{   width:33.5%;
+.ice{   width:33%;
 }
 .col-lg-3
-{   width:25%;
+{   width:29%;
 }
 }
 @media(min-width:768px) and (max-width:991px)
