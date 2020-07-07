@@ -3,8 +3,8 @@
 var speakword="hello";
 var hellospeaker=
 { speak:function(name){
-document.write(speakword+" "+name);
-document.write("<br>");
+console.log(speakword+" "+name);
+
 }
 };
 window.hellospeaker=hellospeaker;
