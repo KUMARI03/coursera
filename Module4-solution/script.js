@@ -2,6 +2,7 @@
 
 var names=["Yaakov","John","Jen","Jason","Paul","Frank","Larry","Paula","Laura","Jim"];
 document.write("<h1>Module 4 assignment<h1>");
+  document.write("<p>please open console for output</p>");
 for(var i=0;i<names.length;i++)
 {
 var firstletter=(names[i].charAt(0)).toLowerCase();
