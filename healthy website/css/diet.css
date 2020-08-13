@@ -1,0 +1,155 @@
+header{
+	background:#800000;
+	margin: 5px 5px 5px 5px;
+	border-radius: 3px;
+	height: 15em;
+}
+#first{
+	margin-left: 1em;
+	width:25em;
+	margin-top:0.5em; 
+	border-radius: 1em;
+	border: solid yellow;
+
+}
+/*#second{
+	width:7em;
+	
+}*/
+*{
+	box-sizing: border-box;
+}
+.container {
+  position:relative;/*otherwise entirely it comes*/
+  width: 50%;
+  display: inline-block;
+}  
+.overlay {
+  position: absolute;/*to make it come above*/
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color:#800000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:orange;
+  font-size: 50px;
+  font-style: italic;
+    position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 3px;
+ }
+table{
+	margin-top:1em;
+	width: 70%;
+   display: inline-block;
+   float: left;
+   
+}
+th img{
+	display:block;
+	border-radius:0.5rem;
+	width:100%;
+}
+table tr th:first-child{
+background: orange;
+}
+table tr th:nth-child(2)
+{
+background: #4cbb17;
+}
+table tr th:nth-child(3)
+{
+background:purple;
+}
+table tr th:nth-child(4)
+{
+background: #6593f5;
+}
+table tr th:last-child
+{
+background: #000080;
+}
+table tr td:nth-child(1)
+{
+	background: rgba(255,165,0,0.6);
+
+}
+table tr td:nth-child(2)
+{
+	background: #c7ea46;
+}
+table tr td:nth-child(3)
+{
+	background: #de73ff;
+
+}
+table tr td:nth-child(4)
+{
+	background:#0f52ba;
+
+}
+table tr td:nth-child(5)
+{
+	background: #6593f5;
+
+}
+/*table tr td :first-child{
+	background: lightgreen;
+}*/
+/*.row
+{
+	background:blue;
+}  
+table tr td .row{
+	background: yellow;
+}*/
+table{
+	border: 2px solid black;
+}
+table tr td:hover{
+background: grey;
+}
+.outer{
+	float: left;
+	display: inline-block;
+	background: #800000;
+	width:29%;
+	height: 83%;
+	margin-top:1em;
+	margin-left: 0.5em;
+	border: 1px solid black;
+	border-radius: 0.25em;
+}
+.input{
+	float: left;
+	display: inline-block;
+	position: absolute;
+	width: 25%;
+	margin-top:8em;
+	margin-bottom: 8em;
+	background:orange ;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 0.25rem;
+}
+#button{
+	margin-left: 8em;
+	padding:0.25em 0.25em 0.25em 0.25em; 
+
+}
+#button:hover{
+	background: green;
+}
+form input{
+	border-radius: 0.25em;
+	border:1px double red;
+}

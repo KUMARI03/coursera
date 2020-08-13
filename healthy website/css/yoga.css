@@ -1,0 +1,106 @@
+header{
+	background: #ffff9c;
+	 border: 3px double green;
+	 height: 30%;
+	}
+	#symbol{
+	border:2px solid black;
+	border-radius: 10rem;
+	width: 13%;
+	margin-left:15em;
+	display: inline-block;
+	float: left;
+	clear: right;
+	margin-top: 0.5em;
+}
+*{
+	box-sizing: border-box;
+}
+#hsymbol{
+	display: inline-block;
+	float: left;
+	clear: right;
+	border-radius: 5rem;
+	border:2px solid black;
+	margin-top: 1em;
+	height: auto;
+	margin-top: 0.5em;
+	width: 13%;
+	margin-left: 5em;
+
+}
+h1 { 
+	display: inline-block;
+      float:left;
+      clear: right;
+      width: 20%;
+	font-size: 2em;
+	margin-left: 5em;
+	
+}
+p{
+	font-size: 0.8em;
+}
+body{
+	background: #98fb98;
+
+}
+.list{
+	margin-left: 5em;
+}
+#bhu>h3,#Ustra>h3,#Ardha>h3,#shala>h3,#kona>h3,#Hasta>h3,#Tri>h3,#Vira>h3,#Vrik>h3,#Paschim>h3,#Utkat>h3 
+{
+	font-size: 2em;
+	color:black;
+}
+#bhu,#Ustra,#Ardha,#shala,#kona,#Hasta,#Tri,#Vira,#Vrik,#Paschim,#Utkat{
+	background: #4cbb17;
+    font-size: 1em;
+	color:yellow;
+	 display: inline-block;
+     /*margin-left: 4em;*/
+       border: 2px solid yellow;
+       border-radius: 1em;
+}
+ img{
+           border-radius: 1em;
+           border: 2px solid pink;
+           display: inline-block;
+           
+}
+.bhu,.Ustra,.Ardha,.shala,.kona,.Hasta,.Tri,.Vira,.Vrik,.Paschim,.Utkat{
+	
+	width:80%;
+	display: none;
+	margin-left: 2em;
+
+
+}
+input:hover{
+	background: purple;
+	
+}
+input{
+	padding: 1em 1em 1em 1em;
+	background: white;
+	border-radius: 1em;
+	margin-top:2em;
+}
+iframe{
+  border: 3px double yellow;
+  width:20%;
+  display: inline-block;
+  float: right;
+  clear: both;
+  margin-left:5em;
+  margin-right: 3em;
+  margin-top:3em;
+
+}
+p::before{
+	content: open-quote;
+
+}
+p::after{
+	content: close-quote;
+}

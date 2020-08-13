@@ -1,0 +1,117 @@
+header{
+	
+	/*background-image:url("https://th.bing.com/th/id/OIP.qSnpMMP4iLTazF4jCnLJfAHaE8?w=234&h=180&c=7&o=5&pid=1.7");*/
+	background-image:url("https://th.bing.com/th/id/OIP.apcRaKz1Wr8893nLgCHe-QHaE5?w=257&h=180&c=7&o=5&pid=1.7");
+	/*background-image: url("https://th.bing.com/th/id/OIP.qdzeHjjwtdrsJZRF_BLrTQHaE7?w=292&h=194&c=7&o=5&pid=1.7");*/
+	background-repeat: repeat;
+	/*background-position: left-top,right-bottom;*/
+    height:30%;
+    border: 0.1em solid yellow;
+}
+*{
+	box-sizing: border-box;
+}
+h1{
+	padding: 0em 15em 0em 15em;
+	color: yellow;
+}
+header p{
+	font-size: 1.3em;
+	color: #ffffff;
+	font-style: italic;
+	padding-left: 20rem;
+	padding-right: 20rem;
+}
+section{
+	margin-top: 1em;
+	background: #457c1b;
+	height: 200%;
+	border: 0.25em solid black;
+}
+
+header p::before{
+content: open-quote;
+}
+header p::after{
+	content: close-quote;
+}
+#medicine{
+	padding: 1em 1em 1em 1em;
+	background: #ffff9c;
+   margin-left:35em;
+	margin-right:35em;
+	margin-top: 2em; 
+	border-radius: 0.3em;
+	border: 0.5em double orange;
+	
+}
+.medicine{
+	display: none;
+	background:#457c1b;
+}
+ h2{
+    margin-left: 1em;
+    text-decoration-line: underline;
+    text-decoration-style:double;
+    color: yellow;
+}
+.medicine>ul{
+	list-style-type: none;
+	/*margin-left:27em;
+	margin-right:28em;*/
+	margin-top: 0em;
+}
+#tulsilist{
+
+}
+/*.dropdown:hover #medicine{
+	background-color: blue;
+}*/
+.medicine input{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	background:#efb261;
+	border:0.2em solid grey;
+	display: block;
+	width:20%;
+	
+} 
+/*.dropdown:hover .medicine{
+	display: block;
+}*/
+.tulsi,.tul,.tuls,.ginger,.ging,.ginge,.turmeric,.turmer,.turmeri,.pepper,.pepp,.peppe,.garlic,.garl,.garli{
+	background-color: pink;
+    display: none;
+    border: 0.25em double orange;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-left:1em;
+    margin-right:1em;
+    float: left;
+    clear:right;
+    height: 50%;
+}
+#tea,#water,#gingtea,#juice,#turmerictea,#turmericuse,#pepperrasam,#peppersoup,#garlicchutney,#garlicpowder{
+	display: none;
+	
+}
+.tul input,.ging input,.turmer input,.pepp input,.garl input{
+padding: 0.3em 0.3em 0.3em 0.3em;
+	background:#efb261;
+	border:0.2em solid grey;
+	display: block;
+	width: 35%;
+	margin-top: 1em;
+}
+.tul ul,.tul h3,.ging ul,.ging h3,.turmer ul,.turmer h3,.pepp ul,.pepp h3,.garl ul,.garl h3{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.tuls,.ginge,.turmeri,.peppe,.garli{
+	padding: 1em 1em 1em 1em;
+	font-size: 1.5em;
+}
+img{
+	width: 50%;
+	border: 0.25em solid grey;
+	margin-left: 3em;
+}
